@@ -51,11 +51,11 @@ def filter_words_by_difficulty(words, difficulty):
     Returns a list of words that match the allowed lengths.
     """
     if difficulty.lower() == 'easy':
-        allowed_lengths = {3, 4}
+        allowed_lengths = {3}
     elif difficulty.lower() == 'medium':
-        allowed_lengths = {5, 6}
+        allowed_lengths = {4}
     elif difficulty.lower() == 'hard':
-        allowed_lengths = {7, 8, 9}
+        allowed_lengths = {6}
     else:
         raise ValueError("Difficulty must be 'easy', 'medium', or 'hard'")
     
