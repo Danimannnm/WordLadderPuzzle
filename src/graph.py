@@ -43,6 +43,6 @@ def build_graph(words):
 if __name__ == "__main__":
     # For testing purposes: load the dictionary and build the graph.
     # Make sure you have a file at "data/dictionary.txt" with a list of words.
-    words = load_dictionary("data/dictionary.txt")
+    words = load_dictionary("data/oxford_words.txt")
     graph = build_graph(words)
     print("Graph built with {} nodes and {} edges".format(graph.number_of_nodes(), graph.number_of_edges()))
