@@ -1,0 +1,26 @@
+Outlined Path to Complete the Project
+Dictionary and Graph Construction:
+
+Load a dictionary from a file or API.
+Construct a graph where each word is a node and edges connect words differing by one letter.
+Validate intermediate words against the dictionary.
+Implement Search Algorithms:
+
+Start with Breadth-First Search (BFS) as it’s conceptually straightforward for finding the shortest transformation in an unweighted graph.
+Implement Uniform Cost Search (UCS), incorporating the cost function g(n).
+Implement A Search* by defining an appropriate heuristic h(n) (e.g., the number of differing letters between the current word and target word).
+Develop the Game Logic:
+
+Allow players to choose between manual play and AI-assisted hints.
+Integrate the search algorithms to provide hints or auto-solve puzzles.
+Keep track of the number of moves and calculate scores accordingly.
+UI/UX and Visualization:
+
+Decide on a user interface framework (console-based, tkinter, or pygame).
+If using a GUI, design the game window, display the word ladder, and optionally visualize the graph.
+Ensure that the user can select game modes and difficulty levels.
+Testing & Documentation:
+
+Write unit tests for each component, especially your search algorithms.
+Document the code and the logic behind each major decision.
+Prepare a final report outlining your approach, challenges, and how you integrated each part.
