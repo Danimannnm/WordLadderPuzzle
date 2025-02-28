@@ -10,7 +10,7 @@ def load_dictionary(file_path):
     """
     with open(file_path, 'r') as file:
         # Remove any extra spaces and ignore empty lines.
-        words = [line.strip() for line in file if line.strip()]
+        words = [line.strip().lower() for line in file if line.strip()]
     return words
 
 def differ_by_one(word1, word2):
